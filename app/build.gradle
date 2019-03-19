@@ -35,7 +35,7 @@ android {
 }
 
 dependencies {
-    def spek_version = "2.0.0"
+    def spek_version = "2.0.1"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
@@ -47,5 +47,6 @@ dependencies {
     testImplementation "org.spekframework.spek2:spek-runner-junit5:$spek_version"
 
     testImplementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    testImplementation "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
     testImplementation "io.mockk:mockk:1.9"
 }
