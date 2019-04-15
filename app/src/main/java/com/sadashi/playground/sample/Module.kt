@@ -1,4 +1,4 @@
-package com.sadashi.playground
+package com.sadashi.playground.sample
 
 import io.reactivex.Single
 

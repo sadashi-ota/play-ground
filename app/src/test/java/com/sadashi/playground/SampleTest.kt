@@ -2,6 +2,8 @@ package com.sadashi.playground
 
 import android.app.Activity
 import android.content.Context
+import com.sadashi.playground.sample.Module
+import com.sadashi.playground.sample.Sample
 import io.mockk.confirmVerified
 import io.mockk.every
 import io.mockk.mockk
