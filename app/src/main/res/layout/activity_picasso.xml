@@ -9,6 +9,7 @@
         tools:context=".ui.picasso.PicassoActivity">
 
     <ImageView
+            android:id="@+id/imageView"
             android:contentDescription="@string/description_sample_image"
             android:layout_width="match_parent"
             android:layout_height="@dimen/image_size_sample"
