@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.sadashi.playground.R
 import com.sadashi.playground.ui.api.RetrofitActivity
 import com.sadashi.playground.ui.blur.BlurryActivity
+import com.sadashi.playground.ui.picasso.PicassoActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -29,7 +30,8 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         adapter.collection = listOf(
             SampleScreenItem(RetrofitActivity::class, "api sample"),
-            SampleScreenItem(BlurryActivity::class, "blur sample")
+            SampleScreenItem(BlurryActivity::class, "blur sample"),
+            SampleScreenItem(PicassoActivity::class, "api sample")
         )
     }
 }
