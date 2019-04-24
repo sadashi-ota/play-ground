@@ -11,6 +11,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".ui.picasso.PicassoActivity">
+        </activity>
         <activity android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -23,8 +25,8 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.blur.BlurryActivity" />
-        <activity android:name=".ui.api.RetrofitActivity" />
+        <activity android:name=".ui.blur.BlurryActivity"/>
+        <activity android:name=".ui.api.RetrofitActivity"/>
     </application>
 
 </manifest>

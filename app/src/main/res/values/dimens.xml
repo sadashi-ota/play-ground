@@ -10,4 +10,6 @@
     <dimen name="font_text_large_size">20sp</dimen>
     <dimen name="font_text_normal_size">16sp</dimen>
     <dimen name="font_text_small_size">12sp</dimen>
+
+    <dimen name="image_size_sample">256dp</dimen>
 </resources>
